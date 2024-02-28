@@ -1,0 +1,21 @@
+img{
+    width: 200px;
+}
+
+.category_button {
+    background-color: white;
+    color: rgb(68, 68, 184);
+    font-size: 20px;
+    width: 200px;
+    margin: 5px;
+}
+div{
+    border: 1px solid black;
+}
+
+
+/*
+Copyright Google LLC. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at https://angular.io/license
+*/
