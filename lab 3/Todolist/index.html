@@ -1,24 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-<title>To do list</title>
-<link rel="stylesheet" href="main.css">
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.5.1/css/all.css">
-</head>
-<body>
-<div>
-    <div class="container1">
-        <p id="todolist1">ToDo List</p>
-    </div>
-    <div class="container2">
-        <h2> To Do List </h2>
-        <div>
-            <input type="text" placeholder="Add task..." id="input">
-            <button id="button">Add Item</button>
+<html>
+    <head>
+        <title>To Do List</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+    <body>
+        <header class="header" style="font-size: 22px;"><strong>To Do List</strong> </header>
+       
+        <div class="container">
+            <h1>ToDo List</h1>
+            <input id = "input" type="text" placeholder="Enter New Task"> <button id = "addButton"> Add </button>
+            <div id = "tasksList">
+
+            </div>
         </div>
-        <ul id="list"></ul>
-    </div>
-</div>
-<script src="script.js"></script>
-</body>
+        <script src="main.js"></script>
+    </body>
 </html>

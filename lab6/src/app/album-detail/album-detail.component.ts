@@ -20,7 +20,7 @@ export class AlbumDetailComponent implements OnInit {
         const id = Number(params.get('id'));
         this.albumService.getAlbum(id).subscribe(album =>{
           this.album = album;
-        })
+        })  
       }
       
     })

@@ -12,35 +12,30 @@ export interface Product {
 export const products = [
   {
     id: 1,
-    img: ["https://resources.cdn-kaspi.kz/img/m/p/hfc/h07/84326675808286.jpg?format=gallery-medium"],
-    name: 'Smartphone Google Pixel 8 8 GB/128 GB gray',
-    price: 290000,
-    description: 'nFC technology: Yes\n' +
-        'color: gray\n' +
-        'screen type: OLED, Gorilla Glass Victus\n' +
-        'diagonal: 6.2 inch\n' +
-        'rAM size: 8 GB\n' +
-        'processor: 8-core Google Tensor G3\n' +
-        'built-in memory: 128.0 GB\n' +
-        'battery capacity: 4575.0 mAh',
-    link: 'https://kaspi.kz/shop/p/google-pixel-8-8-gb-128-gb-seryi-114016975/?c=750000000',
+    img: ["https://resources.cdn-kaspi.kz/img/m/p/h63/h50/63758370701342.jpg?format=gallery-medium"],
+    name: 'Creatine',
+    price: 11940,
+    description: 'Type : Creatine\n' +
+        'release form: powder\n' +
+        'package:Jar \n',
+    link: 'https://kaspi.kz/shop/p/maxler-100-golden-creatine-300-g-29502177/?c=750000000',
     rating: 0,
 
   },
   {
     id: 2,
-    img: ["https://resources.cdn-kaspi.kz/img/m/p/h7d/hf3/83817514074142.jpg?format=gallery-medium"],
-    name: 'Smartphone Google Pixel Fold 12 GB/256 GB black',
-    price: 748999,
+    img: ["https://resources.cdn-kaspi.kz/img/m/p/hae/h00/83559620739102.jpg?format=gallery-medium"],
+    name: 'Smartphone Apple iPhone 15 Pro 256Gb gray',
+    price: 589016,
     description: 'nFC technology: Yes\n' +
-        'black color\n' +
-        'screen type: OLED, touch\n' +
-        'diagonal: 7.6 inch\n' +
-        'rAM size: 12 GB\n' +
-        'processor: 8-core Google Tensor G2\n' +
+        'gray color\n' +
+        'screen type: OLED, Super Retina XDR\n' +
+        'diagonal: 6.1 inch\n' +
+        'rAM size: 8 GB\n' +
+        'processor: 6-core Apple A 17 Pro\n' +
         'built-in memory: 256.0 GB\n' +
-        'battery capacity: 4821.0 mAh',
-    link: 'https://kaspi.kz/shop/p/google-pixel-fold-12-gb-256-gb-chernyi-113360114/?c=750000000',
+        'battery capacity: 3279.0 mAh',
+    link: 'https://kaspi.kz/shop/p/apple-iphone-15-pro-256gb-seryi-113138213/?c=750000000',
     rating: 5,
 
   },

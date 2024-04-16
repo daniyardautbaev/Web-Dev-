@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: #fff;
+    background-color: rgb(250, 248, 248);
     font-family: 'Roboto', sans-serif;
 }
 
@@ -37,13 +37,13 @@ main {
 
 .form-div form .instaLogo {
     width: 200px;
-    margin: 20px 0;
+    margin: 20px 0  ;
 }
 
 .form-div form .input {
     width: 90%;
     padding: .6rem;
-    border-radius: 8px;
+    border-radius: 7px;
     border: 1px solid rgba(128, 128, 128, 0.3);
     margin: 3px;
 }

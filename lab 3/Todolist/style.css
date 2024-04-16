@@ -1,63 +1,94 @@
-body {
-    font-family: 'Courier New', Courier, monospace;
-  }
-  .container1 {
-    background-color: black;
-    height: 60px;
-    width: inherit;
-    align-items: center;
-    display: flex;
-    border-radius: 10px;
-  }
-  #todolist1 {
-    color: aliceblue;
-    font-weight: bold;
-    margin-left: 10px;
+html,body{
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+  margin: 10px auto;
   
-  }
-  .container2 {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: column;
-  }
-  #input {
-      border-radius: 5px;
-      font-size: 1.1em;
-      height: 30px;
-      width:700px;
-      border: 1px solid #333;
-  }
-  #button {
-    border-radius: 5px;
-    font-size: 1.1em;
-    border: none;
-    background-color: rgb(82, 82, 242);
-    color: aliceblue;
-    width: 100px;
-    height: 30px;
-    font-weight: bold;
-  }
-  #list {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-  }
+}
+
+header{
+  background:linear-gradient(100deg, orange , cyan);
+  color: white;
+  height: 60px;
+  text-align: center;
+  font-size: 15px;
+  color: gray;
+  padding-top: 10px;
+  text-align: center;
+  width:100%;
+  color: black;
+
+}
+
+.container{
+  width: 500px;
+  margin: auto;
+}
+
+#input{
   
-  #list li {
-    margin: 10px 0;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
+  width: 430px;
+  height: 30px;
+  border: 1px solid gray;
+  border-radius: 3px;
+  padding-inline-start: 10px;
+}
+
+#addButton{
+  background-color:rgb(26, 109, 192);
+  color: white;
+  height: 33px;
+  width: 50px;
+  border: 1px solid black;
+  border-radius: 3px;
+  cursor: pointer;
+
+}
+
+#addButton:hover{
+  background-color: red;
+}
+
+#tasksList{
+  margin-top: 30px;
+}
+
+.tasks{
+  width: 500px;
+  height: 50px;
+  margin: 5px auto;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding-inline-start: 70px;
   
-  #list li input[type="checkbox"] {
-    margin-right: 10px;
-  }
+}
+
+.delImg{
+  width: 17px;
+  position: relative;
+  left: 400px;
+  bottom: 37px;
+}
+
+.undoneImg{
+  width: 20px;
+  position: relative;
+  right: 75px;
+  bottom: 35px;
+}
+
+.doneImg{
+  width: 20px;
+  position: relative;
+  right: 75px;
+  bottom: 35px;
+}
+
+.done{
+  width: 500px;
+  height: 50px;
+  margin: 5px auto;
+  border: 1px solid black;
+  padding-inline-start: 70px;
+  text-decoration: line-through;
   
-  #list li.completed {
-    text-decoration: line-through;
-  }
+}

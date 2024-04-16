@@ -9,7 +9,7 @@ export interface Categories{
 
 export const categories = [
     {
-        name: "Electronics",
+        name: "Гаджеты",
         show_products:false,
         products: [{
             id: 1,
@@ -85,7 +85,7 @@ export const categories = [
     },
        
     {
-        name: "Clothes",
+        name: "Мужская одежда",
         show_products:false,
         products: [
             {
@@ -131,7 +131,7 @@ export const categories = [
         ]
     },
     {
-        name: "accessories",
+        name: "Аксессуары",
         show_products:false,
         products: [
             {
@@ -178,7 +178,7 @@ export const categories = [
 
     },
     {
-        name: "others",
+        name: "Бытовая техника",
         show_products: false,
         products:[
             {

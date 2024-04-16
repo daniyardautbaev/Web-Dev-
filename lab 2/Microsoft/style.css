@@ -116,8 +116,8 @@
   .showcase .btn {
     margin-top: 20px;
   }
-  
-  /* Home cards */
+
+
   .home-cards {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -175,7 +175,6 @@
     padding: 100px 0 0 30px;
   }
   
-  /* Follow */
   .follow {
     display: flex;
     align-items: center;
