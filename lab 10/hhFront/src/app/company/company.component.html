@@ -1,0 +1,77 @@
+<div style="width: 100%">
+  <div style="display: flex; align-items: center; flex-direction: column">
+    <h1>Companies</h1>
+    <h4 style="max-width: 800px; text-align: center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi architecto at cum dolore esse fuga fugit ipsam iure labore non officiis placeat quae quibusdam, ratione similique.</h4>
+    <div class="create-button" (click)="isCreate()"><button class="inButton">Create new company</button></div>
+  </div>
+</div>
+
+<div class="skill-section">
+  <div class="container">
+    <ul class="skill-list">
+      <li *ngFor="let company of companies" class="company-item">
+        <a routerLink="/{{company.id}}/vacancies" class="company-link">{{company.name}}</a>
+        <button class="delete-button" (click)="deleteCompany(company.id)">X</button>
+        <div style="margin-top: 10px; color: white">
+          Description:
+          {{company.description}} <br>
+          City:
+          {{company.city}}
+        </div>
+        <div style="margin-top: 10px">
+          <button class="update-button" (click)="change(company.id)">update Company name</button>
+        </div>
+        <div class="update-fieldset" *ngIf="isUpdate == company.id">
+          <input type="text" id="{{company.id}}" [(ngModel)]="newName" class="update-input" placeholder="Update company name">
+          <button class="update-button" (click)="updateCompany(company.id)">update</button>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
+<div *ngIf="isAdd" class="popup" style="width: 800px;left: 340px;z-index: 10020;height: 480px;top: 80px;">
+  <div class="scrollwrap">
+    <div class="cntt">
+      <form id="theform">
+        <div id="advsearch" class="form">
+          <div class="titles">New Post</div>
+          <div class="text">
+            <div class="label">Company name</div>
+            <input class="textsearch searchText" type="text" [(ngModel)]="newCompany.name" name="title">
+          </div>
+          <div class="codes">
+            <div class="label">Description</div>
+            <textarea [(ngModel)]="newCompany.description" name="description" class="searchCodes" cols="25" rows="5"></textarea>
+            <div class="annotation">The description is not important. </div>
+          </div>
+          <div class="text">
+            <div class="label">City</div>
+            <select [(ngModel)]="selectedValue" name="City" class="select-container">
+              <option selected="">City</option>
+              <option value="Shymkent">Shymkent</option>
+              <option value="Almaty">Almaty</option>
+              <option value="Astana">Astana</option>
+            </select>
+          </div>
+          <div class="text">
+            <div class="label">Address</div>
+            <input class="textsearch searchText" type="text" [(ngModel)]="newCompany.address" name="title">
+            <div class="annotation">The address is not important. </div>
+          </div>
+          <div class="msg">
+            <span id="msg"></span>
+          </div>
+          <div class="btn">
+            <div style="margin: auto; display: inline-block; line-height: 0.8em;" class="hand hoverdark orange">
+              <img (click)="addCompany()" style="width: 40px" alt="search" src="../../assets/ok.svg">
+              <br>create
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+    <div id="_popupsStack_dot_aStack_op_0_cl__dot_close" class="popupcross" (click)="isCreate()">X</div>
+  </div>
+</div>
+
+

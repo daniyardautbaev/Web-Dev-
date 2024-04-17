@@ -1,0 +1,304 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.menu{
+  width: 13px;
+  height: 13px;
+  display: inline-block;
+  vertical-align: middle;
+  border: 0;
+  outline: none;
+  text-decoration: none;
+  background: url("../../assets/menu.svg") no-repeat 0 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+header {
+  width: 100%;
+}
+.headd{
+  margin: 50px 0px 0px 110px;
+  padding: 20px;
+  display: flex;
+}
+
+.logo img {
+  height: 40px;
+  scale: 1.3;
+}
+
+main {
+  margin-top: 640px;
+  margin-left: 130px;
+  padding: 20px;
+}
+
+footer {
+  font-size: 16px;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.mainHead {
+  display: flex;
+  margin: 10px 130px 10px 130px;
+  font-size: 14px;
+}
+
+.left {
+  letter-spacing: 1px;
+  word-spacing: 1px;
+  text-decoration: none;
+}
+
+.right {
+  position: absolute;
+  right: 130px;
+}
+
+.region {
+  margin-right: 30px;
+  color: #468ffd;
+  text-decoration: none;
+  border-bottom: 1px dashed #468ffd;
+}
+
+.select{
+  margin-right: 10px;
+  color: #468ffd;
+  text-decoration: none;
+}
+.on{
+  color: black;
+}
+.dash{
+  margin-left: -60px;
+  border-bottom: 1px dashed #468ffd;
+}
+
+.back {
+  position: absolute;
+  z-index: 0;
+}
+
+.backImg{
+  width: 1496px;
+  height: 615px;
+}
+.man{
+  position: absolute;
+  right: 140px;
+}
+
+.hh {
+  list-style: none;
+  gap: 10px;
+  display: flex;
+}
+a{
+  cursor: pointer;
+}
+
+.btt1 {
+  cursor: pointer;
+  border-radius: 20px;
+  border: 1px solid rgb(165, 226, 182, 0.55);
+  color: #a5e2b6;;
+  padding: 8px 10px 8px 10px;
+  font-size: 18px;
+  background-color: transparent;
+}
+.btt1:hover {
+  border-color: rgb(165, 226, 182);
+}
+
+.bttn2 {
+  cursor: pointer;
+  border: 1px solid rgba(255, 255, 255, 0.55);
+  border-radius: 20px;
+  color: white;
+  font-size: 18px;
+  padding: 8px 10px 8px 10px;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.bttn2:hover {
+  border-color: rgb(255, 255, 255);
+}
+
+.About {
+  cursor: pointer;
+  position: absolute;
+  margin: 10px 30px;
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+  border-bottom: 1px dashed white;
+}
+
+.line {
+  height: 1px;
+  background-color: #768694;
+  margin: 0px 130px 10px 130px;
+}
+
+.social {
+  width: 24px;
+  height: 24px;
+}
+.footer{
+  display: flex;
+  padding: 20px 0;
+}
+
+.last {
+  cursor: pointer;
+  margin-left: 130px;
+  gap: 20px;
+}
+
+.flag{
+  position: absolute;
+  margin: 3px 10px 0px 6px;
+}
+.rus {
+  margin-left: 25px;
+}
+
+.btt {
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  margin-top: 15px;
+  margin-left: 15px;
+  background-color: transparent;
+  border: none;
+}
+
+.list {
+  margin-top: -130px;
+  cursor: pointer;
+  font-size: 16px;
+  display: flex;
+  gap: 22px;
+  color: #768694;
+}
+
+.pos {
+  position: absolute;
+  z-index: 15;
+}
+
+.center {
+  margin: 90px 130px 0 130px;
+}
+
+.first {
+  width: 800px;
+  margin-left: 160px;
+}
+.promo{
+  color: white;
+  font-size: 50px;
+}
+
+.input {
+  margin-top: 20px;
+  width: 580px;
+  height: 50px;
+  font-size: 18px;
+  border-radius: 5px;
+  border-color: transparent;
+  padding-left: 10px;
+  color: #768694;
+}
+
+.search-button{
+  cursor: pointer;
+  width: 110px;
+  margin-left: 10px;
+  height: 50px;
+  background-color: #0070ff;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 18px;
+}
+.text {
+  cursor: pointer;
+  border-bottom: 1px dashed white;
+  color: white;
+  font-size: 18px;
+}
+
+.textDiv {
+  margin-top: 20px;
+}
+
+.second {
+  margin-top: 160px;
+  display: flex;
+  color: #ffffff;
+  gap: 20px;
+}
+.count {
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+}
+
+.num{
+  font-size: 25px;
+  margin-left: 3px;
+}
+
+.app {
+  display: block;
+  text-decoration: none;
+  margin-right: 10px;
+  border: 1px solid rgb(118, 134, 148);
+  border-radius: 4px;
+  width: 140px;
+  height: 40px;
+  background-color: rgba(42,49,55,.2);
+  background-image: url("../../assets/app.svg");
+  background-repeat: no-repeat;
+  background-size: 141px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+}
+.ios{
+  background-position: 0 -45px;
+}
+.and{
+  background-position: 0 0;
+}
+.hua{
+  background-position: 0 -90px;
+}
+
+.app:hover {
+  border: 1px solid white;
+}
+
+.app-buttons{
+  margin-right: -290px;
+  display: flex;
+}
+
+.btt:hover{
+  background-color:rgb(118, 134, 148, 0.2);
+}
